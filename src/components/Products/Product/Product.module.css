@@ -1,0 +1,64 @@
+.container {
+    width: 850px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.26);
+    border-radius: 1px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-between;
+    
+  }
+  .botsdetails__details {
+    padding: 1.0rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .details__title {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: black;
+  }
+  .details__cagr {
+    font-size: 1.0rem;
+   margin-top: 20px;
+    color: black;
+    
+  }
+  .details__index {
+    font-size: 1.0rem;
+   margin-top: 20px;
+    color: black;
+    
+  }
+  .botsdetails__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+  
+  .buttons__btn {
+    width: 100px;
+    padding: 0.5rem;
+    border: 1px solid blue;
+    font-size: 0.65rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .buttons__btn:hover {
+    opacity: 0.7;
+  }
+  
+  .buttons__view {
+    background-color: white;
+    color: blue;
+  }
+  
+  .buttons__add {
+    background-color: white;
+    color: blue;
+    width: 40%;
+    margin-left: 60px;
+  }
